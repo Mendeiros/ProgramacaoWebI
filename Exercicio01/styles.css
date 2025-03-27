@@ -1,0 +1,54 @@
+header {
+    width: 100%;
+    font-size: larger;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+div.formulario{
+    width: 600px;
+    margin: auto;
+}
+
+div.tabela{
+    width: 600px;
+    margin: auto;
+}
+
+form {
+    background-color: lightgray;
+    border: 3px solid black;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: -20px; /*fiz uma bagunça só pra centralizar :) */
+
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    width: 100%;
+}
+
+table {
+    width: 600px;
+    height: 267px;
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
